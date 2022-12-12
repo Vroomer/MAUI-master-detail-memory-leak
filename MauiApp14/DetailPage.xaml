@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp14"
+             x:DataType="local:DetailPageViewModel"
+             x:Class="MauiApp14.DetailPage"
+             Title="DetailPage">
+    <VerticalStackLayout>
+        <Button Text="Pop page"
+                Clicked="Button_Clicked" />
+        <Entry Text="{Binding Item.String1}" />
+        <Entry Text="{Binding Item.String2}" />
+        <Entry Text="{Binding Item.String3}" />
+        <Entry Text="{Binding Item.String4}" />
+        <Entry Text="{Binding Item.String5}" />
+        <Entry Text="{Binding Item.String6}" />
+        <Entry Text="{Binding Item.String7}" />
+        <Entry Text="{Binding Item.String8}" />
+        <Entry Text="{Binding Item.String9}" />
+        <Entry Text="{Binding Item.String10}" />
+        <Entry Text="{Binding Item.String11}" />
+        <Entry Text="{Binding Item.String12}" />
+        <Entry Text="{Binding Item.String13}" />
+        <Entry Text="{Binding Item.String14}" />
+        <Entry Text="{Binding Item.String15}" />
+        <Entry Text="{Binding Item.String16}" />
+        <Entry Text="{Binding Item.String17}" />
+        <Entry Text="{Binding Item.String18}" />
+        <Entry Text="{Binding Item.String19}" />
+        <Entry Text="{Binding Item.String20}" />
+    </VerticalStackLayout>
+</ContentPage>
